@@ -63,6 +63,7 @@
         {
             "phase": 6,
             "points": 3,
+            "capitulo": 3,
             "texts": [
                 {"text": "Um dia, você encontra uma jovem chamada Aria, que o ensina sobre a magia local.", "characterId": 0},
                 {"text": "\"A magia está em tudo ao nosso redor. Apenas sinta-a e ela se revelará.\"", "characterId": 0},
