@@ -16,7 +16,7 @@ const loadGameData = async () => {
         const messagesResponse = await fetch('json/history.json');
         if (!messagesResponse.ok) throw new Error('Erro ao carregar o arquivo de mensagens.');
         messages = await messagesResponse.json();
-
+        
         const ranksResponse = await fetch('json/rankings.json');
         if (!ranksResponse.ok) throw new Error('Erro ao carregar o arquivo de rankings.');
         ranks = await ranksResponse.json();
@@ -25,10 +25,15 @@ const loadGameData = async () => {
         if (!captionsResponse.ok) throw new Error('Erro ao carregar o arquivo de capítulos.');
         captions = await captionsResponse.json();
 
-        // Conta a quantidade de missões
-        messages.forEach(element => {
-            pendingMissions += element.texts.length;
-        });
+        // Verifique se messages é um array
+        if (Array.isArray(messages.phases)) {
+            // Conta a quantidade de missões
+            messages.phases.forEach(phase => {
+                pendingMissions += phase.texts.length;
+            });
+        } else {
+            console.error('A estrutura de messages não é um array ou está incorreta.');
+        }
 
         updateMissionsAction(); // Atualiza o sistema de missões
 
@@ -36,7 +41,6 @@ const loadGameData = async () => {
         console.error(error);
     }
 };
-
 // ------------------ Váriaveis globais ------------------
 var currentPhase = 0;
 var currentMessageIndex = 0;
@@ -52,40 +56,78 @@ let pendingMissions = 0;
 
 const ClickButtonAction = () => {
     $("#soundClick").click(() => {
-
         document.getElementById('hoverSound').play();
 
-        let currentPhaseMessages = messages[currentPhase].texts;
+        // Acessa as mensagens da fase atual
+        let currentPhaseMessages = messages.phases[currentPhase].texts;
+        let currentPhaseMessagesPoints = messages.phases[currentPhase].points;
+        let currentPhaseMessagesCaption = messages.phases[currentPhase].capitulo;
+        let currentCaracteres = messages.phases[currentPhase].texts[currentMessageIndex].characterId;
 
-        document.querySelector(".texts-container").innerHTML += `<p class="titulo">${currentPhaseMessages[currentMessageIndex]}</p>`; 
+        if ( currentCaracteres ) {
+
+            let pathPerosnagem = getCharacterImageAction(currentCaracteres);
+
+            // Adiciona a mensagem ao container de textos
+            document.querySelector(".texts-container").innerHTML += `
+                <p class="titulo titulo-persona">
+                    <img src="${pathPerosnagem}" alt="Imagem do Personagem">
+                    ${currentPhaseMessages[currentMessageIndex].text}
+                </p>
+            `;
+        } else {
+            // Adiciona a mensagem ao container de textos
+            document.querySelector(".texts-container").innerHTML += `
+            <p class="titulo">${currentPhaseMessages[currentMessageIndex].text}</p>`;
+        }; 
 
         let element = document.querySelector(".texts-container");
-
         element.scrollTop = element.scrollHeight;
 
+        // Incrementa o índice da mensagem
         currentMessageIndex++;
 
-        // Remove um missão das pendetes
+        // Remove uma missão das pendentes
         pendingMissions--;
-        // Adiciona uma missão das completas
-        completedMissions++
+        // Adiciona uma missão às completas
+        completedMissions++;
 
         chargeBoardAction('level', (currentPhase + 1)); // Sistema de troca de level
-        updatePointsAction(messages[currentMessageIndex].points); // Sistema de aumento de pontos
+        updatePointsAction(currentPhaseMessagesPoints); // Atualiza o sistema de pontos
         updateRankAction(); // Sistema de classificação de ranking
         updateMissionsAction(); // Atualiza o sistema de missões
-        updateCaptionAction(messages[currentMessageIndex - 1].capitulo); // Atualiza o sistema de capítulos
+        updateCaptionAction(currentPhaseMessagesCaption); // Atualiza o sistema de capítulos
 
+        // Verifica se o índice da mensagem excedeu o comprimento da fase
         if (currentMessageIndex >= currentPhaseMessages.length) {
             currentMessageIndex = 0;
             currentPhase++;
-            if (currentPhase >= messages.length) {
+
+            // Se a fase atual exceder o número de fases, reinicie para a primeira fase
+            if (currentPhase >= messages.phases.length) {
                 currentPhase = 0;
             }
         }
     });
 };
 
+
+/* -------------------------------------------------------
+|
+| Sistema de inserção de imagem de face dos personagens
+|
+// | -------------------------------------------------------*/
+const getCharacterImageAction = (characterId) => {
+    const characters = {
+        0: 'resources/persona/protagonista-face.png',
+        1: 'resources/persona/protagonista-face.png',
+        2: 'resources/persona/protagonista-face.png',
+        3: 'resources/persona/protagonista-face.png',
+        4: 'resources/persona/protagonista-face.png',
+        5: 'resources/persona/protagonista-face.png'
+    };
+    return characters[characterId] || 'resources/persona/default-persona.jpg';
+};
 
 /* -------------------------------------------------------
 |

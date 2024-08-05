@@ -1,121 +1,123 @@
-[
-    {
-        "phase": 1,
-        "points": 5,
-        "capitulo": 1,
-        "texts": [
-            "Você acorda em um mundo desconhecido, com memórias de uma vida passada.",
-            "O vilarejo ao seu redor parece tranquilo, mas algo parece não estar certo.",
-            "Uma voz suave ecoa em sua mente: \"Seu destino começa agora.\"",
-            "Você se levanta, determinado a entender o que aconteceu com você.",
-            "O sol nasce, e você vê o vilarejo pela primeira vez."
-        ]
-    },
-    {
-        "phase": 2,
-        "points": 7,
-        "capitulo": 2,
-        "texts": [
-            "Você conhece a Sra. Elara, uma anciã do vilarejo.",
-            "\"Você parece perdido, jovem. Meu nome é Elara. Posso ajudar você a encontrar seu caminho?\"",
-            "Elara lhe mostra as redondezas do vilarejo e lhe conta sobre a vida local.",
-            "Você começa a sentir um vínculo com o lugar e suas pessoas.",
-            "As memórias de sua vida passada parecem cada vez mais distantes."
-        ]
-    },
-    {
-        "phase": 3,
-        "points": 8,
-        "capitulo": 1,
-        "texts": [
-            "Você encontra um jovem chamado Lorian, que lhe apresenta a arte da coleta de ervas.",
-            "\"Aqui, usamos essas ervas para curar e fortalecer. Aprenda bem, jovem.\"",
-            "Você se dedica a aprender as técnicas de coleta e reconhecimento de ervas.",
-            "Lorian se torna seu amigo e mentor, compartilhando histórias sobre o vilarejo.",
-            "Você começa a sentir que encontrou um lugar para chamar de lar."
-        ]
-    },
-    {
-        "phase": 4,
-        "points": 10,
-        "capitulo": 1,
-        "texts": [
-            "Uma noite, um grupo de viajantes chega ao vilarejo, trazendo histórias de terras distantes.",
-            "\"Vocês devem conhecer o mundo além destas colinas. É vasto e cheio de mistérios.\"",
-            "Você se inspira nas histórias dos viajantes e decide explorar mais.",
-            "O desejo de aventura começa a crescer dentro de você.",
-            "Você começa a planejar suas futuras explorações."
-        ]
-    },
-    {
-        "phase": 5,
-        "points": 12,
-        "capitulo": 1,
-        "texts": [
-            "Enquanto explora o vilarejo, você encontra um jovem guerreiro chamado Kael.",
-            "\"O treinamento é duro, mas necessário para se preparar para o que está por vir.\"",
-            "Kael oferece-lhe um treinamento básico em combate e defesa.",
-            "Você treina com dedicação, aprendendo a manejar uma espada e escudo.",
-            "O treinamento fortalece não só seu corpo, mas também seu espírito."
-        ]
-    },
-    {
-        "phase": 6,
-        "points": 8,
-        "texts": [
-            "Um dia, você encontra uma jovem chamada Aria, que o ensina sobre a magia local.",
-            "\"A magia está em tudo ao nosso redor. Apenas sinta-a e ela se revelará.\"",
-            "Você começa a aprender a controlar e utilizar a magia para pequenas tarefas.",
-            "Aria se torna uma amiga próxima, compartilhando conhecimentos e segredos.",
-            "Você se maravilha com as novas habilidades que está adquirindo."
-        ]
-    },
-    {
-        "phase": 7,
-        "points": 10,
-        "capitulo": 1,
-        "texts": [
-            "A primavera chega, e o vilarejo se enche de vida e festividades.",
-            "\"A estação das flores é um momento de renovação e celebração. Venha, junte-se a nós!\"",
-            "Você participa das festividades, conhecendo melhor os habitantes do vilarejo.",
-            "Os laços de amizade e comunidade se fortalecem.",
-            "Você sente que está começando a se integrar verdadeiramente ao vilarejo."
-        ]
-    },
-    {
-        "phase": 8,
-        "points": 6,
-        "capitulo": 1,
-        "texts": [
-            "Durante uma conversa com Elara, você descobre que há rumores de um rei demônio distante.",
-            "\"O reino está em paz por enquanto, mas algo sombrio se aproxima. Mantenha-se atento.\"",
-            "Você se preocupa com as notícias, mas decide continuar com seu treinamento e estudos.",
-            "A sensação de que o perigo está se aproximando aumenta.",
-            "Você começa a preparar-se mentalmente para possíveis desafios futuros."
-        ]
-    },
-    {
-        "phase": 9,
-        "points": 7,
-        "capitulo": 1,
-        "texts": [
-            "Kael e Aria o convidam para uma expedição aos arredores do vilarejo.",
-            "\"Há muito a aprender fora dos limites do vilarejo. Vamos explorar juntos!\"",
-            "Você se junta a eles, e o grupo descobre um antigo templo nas proximidades.",
-            "Explorar o templo revela fragmentos de uma história antiga sobre o rei demônio.",
-            "Você se sente inspirado e preparado para enfrentar qualquer desafio."
-        ]
-    },
-    {
-        "phase": 10,
-        "points": 9,
-        "capitulo": 1,
-        "texts": [
-            "Você conhece um velho eremita chamado Thorne, que lhe dá conselhos sobre a vida e a jornada.",
-            "\"A vida é uma série de desafios e descobertas. Prepare-se para o que está por vir.\"",
-            "Thorne lhe dá um amuleto que, segundo ele, protege contra perigos desconhecidos.",
-            "Você sente uma conexão profunda com o amuleto e com as palavras de Thorne.",
-            "Você agradece e se prepara para as novas fases de sua jornada."
-        ]
-    }
-]
+{
+    "phases": [
+        {
+            "phase": 1,
+            "points": 5,
+            "capitulo": 1,
+            "texts": [
+                {"text": "Você acorda em um mundo desconhecido, com memórias de uma vida passada.", "characterId": 0},
+                {"text": "O vilarejo ao seu redor parece tranquilo, mas algo parece não estar certo.", "characterId": 0},
+                {"text": "Uma voz suave ecoa em sua mente: \"Seu destino começa agora.\"", "characterId": 0},
+                {"text": "Você se levanta, determinado a entender o que aconteceu com você.", "characterId": 0},
+                {"text": "O sol nasce, e você vê o vilarejo pela primeira vez.", "characterId": 0}
+            ]
+        },
+        {
+            "phase": 2,
+            "points": 7,
+            "capitulo": 1,
+            "texts": [
+                {"text": "Você conhece a Sra. Elara, uma anciã do vilarejo.", "characterId": 1},
+                {"text": "\"Você parece perdido, jovem. Meu nome é Elara. Posso ajudar você a encontrar seu caminho?\"", "characterId": 1},
+                {"text": "Elara lhe mostra as redondezas do vilarejo e lhe conta sobre a vida local.", "characterId": 1},
+                {"text": "Você começa a sentir um vínculo com o lugar e suas pessoas.", "characterId": 1},
+                {"text": "As memórias de sua vida passada parecem cada vez mais distantes.", "characterId": 1}
+            ]
+        },
+        {
+            "phase": 3,
+            "points": 8,
+            "capitulo": 2,
+            "texts": [
+                {"text": "Você encontra um jovem chamado Lorian, que lhe apresenta a arte da coleta de ervas.", "characterId": 2},
+                {"text": "\"Aqui, usamos essas ervas para curar e fortalecer. Aprenda bem, jovem.\"", "characterId": 2},
+                {"text": "Você se dedica a aprender as técnicas de coleta e reconhecimento de ervas.", "characterId": 2},
+                {"text": "Lorian se torna seu amigo e mentor, compartilhando histórias sobre o vilarejo.", "characterId": 2},
+                {"text": "Você começa a sentir que encontrou um lugar para chamar de lar.", "characterId": 2}
+            ]
+        },
+        {
+            "phase": 4,
+            "points": 10,
+            "capitulo": 2,
+            "texts": [
+                {"text": "Uma noite, um grupo de viajantes chega ao vilarejo, trazendo histórias de terras distantes.", "characterId": 0},
+                {"text": "\"Vocês devem conhecer o mundo além destas colinas. É vasto e cheio de mistérios.\"", "characterId": 0},
+                {"text": "Você se inspira nas histórias dos viajantes e decide explorar mais.", "characterId": 0},
+                {"text": "O desejo de aventura começa a crescer dentro de você.", "characterId": 0},
+                {"text": "Você começa a planejar suas futuras explorações.", "characterId": 0}
+            ]
+        },
+        {
+            "phase": 5,
+            "points": 12,
+            "capitulo": 3,
+            "texts": [
+                {"text": "Enquanto explora o vilarejo, você encontra um jovem guerreiro chamado Kael.", "characterId": 3},
+                {"text": "\"O treinamento é duro, mas necessário para se preparar para o que está por vir.\"", "characterId": 3},
+                {"text": "Kael oferece-lhe um treinamento básico em combate e defesa.", "characterId": 3},
+                {"text": "Você treina com dedicação, aprendendo a manejar uma espada e escudo.", "characterId": 3},
+                {"text": "O treinamento fortalece não só seu corpo, mas também seu espírito.", "characterId": 3}
+            ]
+        },
+        {
+            "phase": 6,
+            "points": 3,
+            "texts": [
+                {"text": "Um dia, você encontra uma jovem chamada Aria, que o ensina sobre a magia local.", "characterId": 4},
+                {"text": "\"A magia está em tudo ao nosso redor. Apenas sinta-a e ela se revelará.\"", "characterId": 4},
+                {"text": "Você começa a aprender a controlar e utilizar a magia para pequenas tarefas.", "characterId": 4},
+                {"text": "Aria se torna uma amiga próxima, compartilhando conhecimentos e segredos.", "characterId": 4},
+                {"text": "Você se maravilha com as novas habilidades que está adquirindo.", "characterId": 4}
+            ]
+        },
+        {
+            "phase": 7,
+            "points": 10,
+            "capitulo": 4,
+            "texts": [
+                {"text": "A primavera chega, e o vilarejo se enche de vida e festividades.", "characterId": 0},
+                {"text": "\"A estação das flores é um momento de renovação e celebração. Venha, junte-se a nós!\"", "characterId": 0},
+                {"text": "Você participa das festividades, conhecendo melhor os habitantes do vilarejo.", "characterId": 0},
+                {"text": "Os laços de amizade e comunidade se fortalecem.", "characterId": 0},
+                {"text": "Você sente que está começando a se integrar verdadeiramente ao vilarejo.", "characterId": 0}
+            ]
+        },
+        {
+            "phase": 8,
+            "points": 6,
+            "capitulo": 4,
+            "texts": [
+                {"text": "Durante uma conversa com Elara, você descobre que há rumores de um rei demônio distante.", "characterId": 1},
+                {"text": "\"O reino está em paz por enquanto, mas algo sombrio se aproxima. Mantenha-se atento.\"", "characterId": 1},
+                {"text": "Você se preocupa com as notícias, mas decide continuar com seu treinamento e estudos.", "characterId": 1},
+                {"text": "A sensação de que o perigo está se aproximando aumenta.", "characterId": 1},
+                {"text": "Você começa a preparar-se mentalmente para possíveis desafios futuros.", "characterId": 1}
+            ]
+        },
+        {
+            "phase": 9,
+            "points": 7,
+            "capitulo": 5,
+            "texts": [
+                {"text": "Kael e Aria o convidam para uma expedição aos arredores do vilarejo.", "characterId": 3},
+                {"text": "\"Há muito a aprender fora dos limites do vilarejo. Vamos explorar juntos!\"", "characterId": 3},
+                {"text": "Você se junta a eles, e o grupo descobre um antigo templo nas proximidades.", "characterId": 3},
+                {"text": "Explorar o templo revela fragmentos de uma história antiga sobre o rei demônio.", "characterId": 3},
+                {"text": "Você se sente inspirado e preparado para enfrentar qualquer desafio.", "characterId": 3}
+            ]
+        },
+        {
+            "phase": 10,
+            "points": 9,
+            "capitulo": 5,
+            "texts": [
+                {"text": "Você conhece um velho eremita chamado Thorne, que lhe dá conselhos sobre a vida e a jornada.", "characterId": 0},
+                {"text": "\"A vida é uma série de desafios e descobertas. Prepare-se para o que está por vir.\"", "characterId": 0},
+                {"text": "Thorne lhe dá um amuleto que, segundo ele, protege contra perigos desconhecidos.", "characterId": 0},
+                {"text": "Você sente uma conexão profunda com o amuleto e com as palavras de Thorne.", "characterId": 0},
+                {"text": "Você agradece e se prepara para as novas fases de sua jornada.", "characterId": 0}
+            ]
+        }
+    ]
+}

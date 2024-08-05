@@ -1,0 +1,10 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "eu",
+            "imagePath": "protagonista-face.png",
+            "description": "Este sou eu!"
+        }
+    ]
+}

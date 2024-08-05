@@ -70,6 +70,20 @@ body, html {
     border-radius: 4px;
 }
 
+.titulo-persona {
+    display: flex;
+    height: fit-content;
+    gap: 10px;
+    align-items: center;
+}
+
+.titulo-persona img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .contaienr-btn .titulo:last-child {
     background-color: rgba(31, 28, 28, 0.178);
 }
