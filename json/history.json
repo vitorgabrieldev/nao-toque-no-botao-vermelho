@@ -17,11 +17,11 @@
             "points": 7,
             "capitulo": 1,
             "texts": [
-                {"text": "Você conhece a Sra. Elara, uma anciã do vilarejo.", "characterId": 1},
-                {"text": "\"Você parece perdido, jovem. Meu nome é Elara. Posso ajudar você a encontrar seu caminho?\"", "characterId": 1},
-                {"text": "Elara lhe mostra as redondezas do vilarejo e lhe conta sobre a vida local.", "characterId": 1},
-                {"text": "Você começa a sentir um vínculo com o lugar e suas pessoas.", "characterId": 1},
-                {"text": "As memórias de sua vida passada parecem cada vez mais distantes.", "characterId": 1}
+                {"text": "Você conhece a Sra. Elara, uma anciã do vilarejo.", "characterId": 0},
+                {"text": "\"Você parece perdido, jovem. Meu nome é Elara. Posso ajudar você a encontrar seu caminho?\"", "characterId": 0},
+                {"text": "Elara lhe mostra as redondezas do vilarejo e lhe conta sobre a vida local.", "characterId": 0},
+                {"text": "Você começa a sentir um vínculo com o lugar e suas pessoas.", "characterId": 0},
+                {"text": "As memórias de sua vida passada parecem cada vez mais distantes.", "characterId": 0}
             ]
         },
         {
@@ -29,11 +29,11 @@
             "points": 8,
             "capitulo": 2,
             "texts": [
-                {"text": "Você encontra um jovem chamado Lorian, que lhe apresenta a arte da coleta de ervas.", "characterId": 2},
-                {"text": "\"Aqui, usamos essas ervas para curar e fortalecer. Aprenda bem, jovem.\"", "characterId": 2},
-                {"text": "Você se dedica a aprender as técnicas de coleta e reconhecimento de ervas.", "characterId": 2},
-                {"text": "Lorian se torna seu amigo e mentor, compartilhando histórias sobre o vilarejo.", "characterId": 2},
-                {"text": "Você começa a sentir que encontrou um lugar para chamar de lar.", "characterId": 2}
+                {"text": "Você encontra um jovem chamado Lorian, que lhe apresenta a arte da coleta de ervas.", "characterId": 0},
+                {"text": "\"Aqui, usamos essas ervas para curar e fortalecer. Aprenda bem, jovem.\"", "characterId": 0},
+                {"text": "Você se dedica a aprender as técnicas de coleta e reconhecimento de ervas.", "characterId": 0},
+                {"text": "Lorian se torna seu amigo e mentor, compartilhando histórias sobre o vilarejo.", "characterId": 0},
+                {"text": "Você começa a sentir que encontrou um lugar para chamar de lar.", "characterId": 0}
             ]
         },
         {
@@ -53,22 +53,22 @@
             "points": 12,
             "capitulo": 3,
             "texts": [
-                {"text": "Enquanto explora o vilarejo, você encontra um jovem guerreiro chamado Kael.", "characterId": 3},
-                {"text": "\"O treinamento é duro, mas necessário para se preparar para o que está por vir.\"", "characterId": 3},
-                {"text": "Kael oferece-lhe um treinamento básico em combate e defesa.", "characterId": 3},
-                {"text": "Você treina com dedicação, aprendendo a manejar uma espada e escudo.", "characterId": 3},
-                {"text": "O treinamento fortalece não só seu corpo, mas também seu espírito.", "characterId": 3}
+                {"text": "Enquanto explora o vilarejo, você encontra um jovem guerreiro chamado Kael.", "characterId": 0},
+                {"text": "\"O treinamento é duro, mas necessário para se preparar para o que está por vir.\"", "characterId": 0},
+                {"text": "Kael oferece-lhe um treinamento básico em combate e defesa.", "characterId": 0},
+                {"text": "Você treina com dedicação, aprendendo a manejar uma espada e escudo.", "characterId": 0},
+                {"text": "O treinamento fortalece não só seu corpo, mas também seu espírito.", "characterId": 0}
             ]
         },
         {
             "phase": 6,
             "points": 3,
             "texts": [
-                {"text": "Um dia, você encontra uma jovem chamada Aria, que o ensina sobre a magia local.", "characterId": 4},
-                {"text": "\"A magia está em tudo ao nosso redor. Apenas sinta-a e ela se revelará.\"", "characterId": 4},
-                {"text": "Você começa a aprender a controlar e utilizar a magia para pequenas tarefas.", "characterId": 4},
-                {"text": "Aria se torna uma amiga próxima, compartilhando conhecimentos e segredos.", "characterId": 4},
-                {"text": "Você se maravilha com as novas habilidades que está adquirindo.", "characterId": 4}
+                {"text": "Um dia, você encontra uma jovem chamada Aria, que o ensina sobre a magia local.", "characterId": 0},
+                {"text": "\"A magia está em tudo ao nosso redor. Apenas sinta-a e ela se revelará.\"", "characterId": 0},
+                {"text": "Você começa a aprender a controlar e utilizar a magia para pequenas tarefas.", "characterId": 0},
+                {"text": "Aria se torna uma amiga próxima, compartilhando conhecimentos e segredos.", "characterId": 0},
+                {"text": "Você se maravilha com as novas habilidades que está adquirindo.", "characterId": 0}
             ]
         },
         {
@@ -88,11 +88,11 @@
             "points": 6,
             "capitulo": 4,
             "texts": [
-                {"text": "Durante uma conversa com Elara, você descobre que há rumores de um rei demônio distante.", "characterId": 1},
-                {"text": "\"O reino está em paz por enquanto, mas algo sombrio se aproxima. Mantenha-se atento.\"", "characterId": 1},
-                {"text": "Você se preocupa com as notícias, mas decide continuar com seu treinamento e estudos.", "characterId": 1},
-                {"text": "A sensação de que o perigo está se aproximando aumenta.", "characterId": 1},
-                {"text": "Você começa a preparar-se mentalmente para possíveis desafios futuros.", "characterId": 1}
+                {"text": "Durante uma conversa com Elara, você descobre que há rumores de um rei demônio distante.", "characterId": 0},
+                {"text": "\"O reino está em paz por enquanto, mas algo sombrio se aproxima. Mantenha-se atento.\"", "characterId": 0},
+                {"text": "Você se preocupa com as notícias, mas decide continuar com seu treinamento e estudos.", "characterId": 0},
+                {"text": "A sensação de que o perigo está se aproximando aumenta.", "characterId": 0},
+                {"text": "Você começa a preparar-se mentalmente para possíveis desafios futuros.", "characterId": 0}
             ]
         },
         {
@@ -100,11 +100,11 @@
             "points": 7,
             "capitulo": 5,
             "texts": [
-                {"text": "Kael e Aria o convidam para uma expedição aos arredores do vilarejo.", "characterId": 3},
-                {"text": "\"Há muito a aprender fora dos limites do vilarejo. Vamos explorar juntos!\"", "characterId": 3},
-                {"text": "Você se junta a eles, e o grupo descobre um antigo templo nas proximidades.", "characterId": 3},
-                {"text": "Explorar o templo revela fragmentos de uma história antiga sobre o rei demônio.", "characterId": 3},
-                {"text": "Você se sente inspirado e preparado para enfrentar qualquer desafio.", "characterId": 3}
+                {"text": "Kael e Aria o convidam para uma expedição aos arredores do vilarejo.", "characterId": 0},
+                {"text": "\"Há muito a aprender fora dos limites do vilarejo. Vamos explorar juntos!\"", "characterId": 0},
+                {"text": "Você se junta a eles, e o grupo descobre um antigo templo nas proximidades.", "characterId": 0},
+                {"text": "Explorar o templo revela fragmentos de uma história antiga sobre o rei demônio.", "characterId": 0},
+                {"text": "Você se sente inspirado e preparado para enfrentar qualquer desafio.", "characterId": 0}
             ]
         },
         {

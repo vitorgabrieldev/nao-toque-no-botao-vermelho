@@ -64,22 +64,15 @@ const ClickButtonAction = () => {
         let currentPhaseMessagesCaption = messages.phases[currentPhase].capitulo;
         let currentCaracteres = messages.phases[currentPhase].texts[currentMessageIndex].characterId;
 
-        if ( currentCaracteres ) {
+        let pathPerosnagem = getCharacterImageAction(currentCaracteres);
 
-            let pathPerosnagem = getCharacterImageAction(currentCaracteres);
-
-            // Adiciona a mensagem ao container de textos
-            document.querySelector(".texts-container").innerHTML += `
-                <p class="titulo titulo-persona">
-                    <img src="${pathPerosnagem}" alt="Imagem do Personagem">
-                    ${currentPhaseMessages[currentMessageIndex].text}
-                </p>
-            `;
-        } else {
-            // Adiciona a mensagem ao container de textos
-            document.querySelector(".texts-container").innerHTML += `
-            <p class="titulo">${currentPhaseMessages[currentMessageIndex].text}</p>`;
-        }; 
+        // Adiciona a mensagem ao container de textos
+        document.querySelector(".texts-container").innerHTML += `
+            <p class="titulo titulo-persona">
+                <img src="${pathPerosnagem}" alt="Imagem do Personagem">
+                ${currentPhaseMessages[currentMessageIndex].text}
+            </p>
+        `;
 
         let element = document.querySelector(".texts-container");
         element.scrollTop = element.scrollHeight;
@@ -119,12 +112,7 @@ const ClickButtonAction = () => {
 // | -------------------------------------------------------*/
 const getCharacterImageAction = (characterId) => {
     const characters = {
-        0: 'resources/persona/protagonista-face.png',
-        1: 'resources/persona/protagonista-face.png',
-        2: 'resources/persona/protagonista-face.png',
-        3: 'resources/persona/protagonista-face.png',
-        4: 'resources/persona/protagonista-face.png',
-        5: 'resources/persona/protagonista-face.png'
+        0: 'resources/persona/protagonista-face.png'
     };
     return characters[characterId] || 'resources/persona/default-persona.jpg';
 };
