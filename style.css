@@ -21,21 +21,48 @@ body, html {
 .contaienr-btn {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-    justify-content: center;
+    row-gap: 60px;
+    height: 100%;
+    width: 100%;
     align-items: center;
-    padding: 0 100px;
+    justify-content: center;
+}
+
+.texts-container {
+    background: #fff;
+    width: 50%;
+    height: 70%;
+    border-radius: 2px;
+    padding: 20px;
+    text-align: left;
+    overflow-y: scroll;
+    border: 2px solid #1b1a1a;
+}
+
+.texts-container::-webkit-scrollbar {
+    width: 12px;               
+}
+
+.texts-container::-webkit-scrollbar-track {
+    background: rgb(242, 242, 242);        
+}
+
+.texts-container::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 229, 229);  
 }
 
 .contaienr-btn .titulo {
     font-size: 16px;
     margin: 0;
-    text-align: center;
+    text-align: left;
     letter-spacing: 2px;
     line-height: 28px;
     font-weight: 500;
     color: #373636;
     font-family: 'Roboto';
+    user-select: none;
 }
 
 .btn-class-name {
@@ -53,7 +80,12 @@ body, html {
     position: relative;
     transition: .3s;
 }
-  
+
+
+.btn-class-name * {
+    user-select: none;
+}
+
 .btn-class-name .back {
     background: rgb(var(--secondary));
     border-radius: 100%;
@@ -96,13 +128,14 @@ body, html {
     top: 20px;
     padding: 10px;
     border-radius: 7px;
+    background-color: #454444;
 }
 
 .item {
     font-size: 10px;
     letter-spacing: 1px;
     text-align: right;
-    color: #403f3f;
+    color: #e5e5e5;
     user-select: none;
 }
 
@@ -131,4 +164,33 @@ body, html {
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .board-level {
+        position: relative;
+        right: auto;
+        padding: 20px 30px;
+        margin-bottom: 50px;
+    }
+
+    .board-level .item {
+        text-align: left;
+    }
+
+    body, html {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        overflow-x: hidden;
+    }
+
+    .texts-container {
+        width: 100%;
+        max-height: 300px;
+    }
+
+    .texts-container .titulo {
+        margin-left: 10px;
+    }
 }

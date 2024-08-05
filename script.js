@@ -98,11 +98,17 @@ const loadMessagesAction =  async() => {
 
 const ClickButtonAction = () => {
     $("#soundClick").click(() => {
+
         document.getElementById('hoverSound').play();
-    
+
         let currentPhaseMessages = messages[currentPhase].texts;
-        document.querySelector(".titulo").innerHTML = currentPhaseMessages[currentMessageIndex];
-        
+
+        document.querySelector(".texts-container").innerHTML += `<p class="titulo">${currentPhaseMessages[currentMessageIndex]}</p>`; 
+
+        let element = document.querySelector(".texts-container");
+
+        element.scrollTop = element.scrollHeight;
+
         currentMessageIndex++;
 
         // Remove um missão das pendetes
@@ -259,5 +265,10 @@ const updateMissionsAction = () => {
 
 $("#play").click(() => {
     $("#play").addClass('hidden');
+
+    const audioElement = document.getElementById('backgroundSound');
+    audioElement.volume = 0.3;
+    audioElement.play();
+
     $(document).ready(init);
 });

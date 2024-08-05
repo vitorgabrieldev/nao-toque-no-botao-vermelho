@@ -1,110 +1,552 @@
 [
     {
         "phase": 1,
-        "points": 7,
+        "points": 5,
         "texts": [
-            "Você inicia sua jornada em uma terra mágica e misteriosa.",
-            "O botão diante de você é o primeiro passo para grandes descobertas.",
-            "Os ventos sussurram segredos enquanto você avança.",
-            "Cada ação revela um pouco mais da magia ao seu redor.",
-            "Sua aventura começa agora, e o destino aguarda suas ações.",
-            "Prepare-se para desbravar o desconhecido!"
+            "Você acorda em um mundo desconhecido, com memórias de uma vida passada.",
+            "O vilarejo ao seu redor parece tranquilo, mas algo parece não estar certo.",
+            "Uma voz suave ecoa em sua mente: \"Seu destino começa agora.\"",
+            "Você se levanta, determinado a entender o que aconteceu com você.",
+            "O sol nasce, e você vê o vilarejo pela primeira vez."
         ]
     },
     {
         "phase": 2,
-        "points": 14,
+        "points": 7,
         "texts": [
-            "O caminho se abre à sua frente, revelando novos desafios.",
-            "Com cada clique, a magia ao seu redor se intensifica.",
-            "Você começa a sentir o peso das responsabilidades de um herói.",
-            "Lendas falam de heróis corajosos como você.",
-            "Cada passo que você dá escreve sua história no reino.",
-            "A magia responde à sua coragem e persistência."
+            "Você conhece a Sra. Elara, uma anciã do vilarejo.",
+            "\"Você parece perdido, jovem. Meu nome é Elara. Posso ajudar você a encontrar seu caminho?\"",
+            "Elara lhe mostra as redondezas do vilarejo e lhe conta sobre a vida local.",
+            "Você começa a sentir um vínculo com o lugar e suas pessoas.",
+            "As memórias de sua vida passada parecem cada vez mais distantes."
         ]
     },
     {
         "phase": 3,
-        "points": 10,
+        "points": 8,
         "texts": [
-            "À medida que você avança, os mistérios do reino se aprofundam.",
-            "Os desafios ficam mais intensos, mas sua determinação brilha.",
-            "Você encontra sinais de heróis que trilharam este caminho antes de você.",
-            "Cada passo faz sua jornada se tornar mais épica.",
-            "A magia começa a reconhecer sua bravura.",
-            "Sua presença está começando a ser notada."
+            "Você encontra um jovem chamado Lorian, que lhe apresenta a arte da coleta de ervas.",
+            "\"Aqui, usamos essas ervas para curar e fortalecer. Aprenda bem, jovem.\"",
+            "Você se dedica a aprender as técnicas de coleta e reconhecimento de ervas.",
+            "Lorian se torna seu amigo e mentor, compartilhando histórias sobre o vilarejo.",
+            "Você começa a sentir que encontrou um lugar para chamar de lar."
         ]
     },
     {
         "phase": 4,
-        "points": 3,
+        "points": 10,
         "texts": [
-            "Você chega a terras onde poucos heróis chegaram antes de você.",
-            "O botão se transforma em um símbolo do seu progresso.",
-            "A magia ao seu redor se alinha com seu destino.",
-            "Histórias sobre sua bravura começam a se espalhar.",
-            "Cada desafio enfrenta ajuda a construir sua lenda.",
-            "Você está se aproximando das maiores conquistas."
+            "Uma noite, um grupo de viajantes chega ao vilarejo, trazendo histórias de terras distantes.",
+            "\"Vocês devem conhecer o mundo além destas colinas. É vasto e cheio de mistérios.\"",
+            "Você se inspira nas histórias dos viajantes e decide explorar mais.",
+            "O desejo de aventura começa a crescer dentro de você.",
+            "Você começa a planejar suas futuras explorações."
         ]
     },
     {
         "phase": 5,
-        "points": 28,
+        "points": 12,
         "texts": [
-            "Os reinos ao redor estão agitados com suas conquistas.",
-            "Sua jornada está deixando uma marca indelével na história.",
-            "Os espíritos antigos observam sua ascensão com admiração.",
-            "Você está começando a dominar os segredos da magia.",
-            "Cada passo que você dá faz o reino se curvar diante de sua determinação.",
-            "Sua saga está se tornando uma das maiores do universo mágico."
+            "Enquanto explora o vilarejo, você encontra um jovem guerreiro chamado Kael.",
+            "\"O treinamento é duro, mas necessário para se preparar para o que está por vir.\"",
+            "Kael oferece-lhe um treinamento básico em combate e defesa.",
+            "Você treina com dedicação, aprendendo a manejar uma espada e escudo.",
+            "O treinamento fortalece não só seu corpo, mas também seu espírito."
         ]
     },
     {
         "phase": 6,
-        "points": 9,
+        "points": 8,
         "texts": [
-            "Você está desbravando os mistérios dos antigos reinos.",
-            "Sua presença é sentida em cada canto do mundo mágico.",
-            "Os desafios se tornam épicos, refletindo sua grandeza.",
-            "A magia ao seu redor se intensifica com cada conquista.",
-            "O destino parece se moldar de acordo com sua vontade.",
-            "Sua lenda está sendo contada em todos os reinos."
+            "Um dia, você encontra uma jovem chamada Aria, que o ensina sobre a magia local.",
+            "\"A magia está em tudo ao nosso redor. Apenas sinta-a e ela se revelará.\"",
+            "Você começa a aprender a controlar e utilizar a magia para pequenas tarefas.",
+            "Aria se torna uma amiga próxima, compartilhando conhecimentos e segredos.",
+            "Você se maravilha com as novas habilidades que está adquirindo."
         ]
     },
     {
         "phase": 7,
-        "points": 18,
+        "points": 10,
         "texts": [
-            "Você está transcendendo as limitações da realidade.",
-            "Cada nova descoberta enriquece a história que você escreve.",
-            "Os reinos aguardam ansiosamente por sua próxima ação.",
-            "Sua jornada se torna uma lenda que será lembrada por eras.",
-            "O poder que você comanda é quase ilimitado.",
-            "Você está se aproximando do ápice de sua aventura."
+            "A primavera chega, e o vilarejo se enche de vida e festividades.",
+            "\"A estação das flores é um momento de renovação e celebração. Venha, junte-se a nós!\"",
+            "Você participa das festividades, conhecendo melhor os habitantes do vilarejo.",
+            "Os laços de amizade e comunidade se fortalecem.",
+            "Você sente que está começando a se integrar verdadeiramente ao vilarejo."
         ]
     },
     {
         "phase": 8,
-        "points": 12,
+        "points": 6,
         "texts": [
-            "Você alcançou o status de lenda eterna.",
-            "O universo celebra suas conquistas e bravura.",
-            "Sua jornada está sendo escrita nas estrelas.",
-            "Você molda o destino dos mundos com suas ações.",
-            "Cada fase de sua aventura é um épico sem igual.",
-            "O reino e além reconhecem o poder da sua lenda."
+            "Durante uma conversa com Elara, você descobre que há rumores de um rei demônio distante.",
+            "\"O reino está em paz por enquanto, mas algo sombrio se aproxima. Mantenha-se atento.\"",
+            "Você se preocupa com as notícias, mas decide continuar com seu treinamento e estudos.",
+            "A sensação de que o perigo está se aproximando aumenta.",
+            "Você começa a preparar-se mentalmente para possíveis desafios futuros."
         ]
     },
     {
         "phase": 9,
-        "points": 22,
+        "points": 7,
         "texts": [
-            "Sua jornada é contada em todos os reinos e dimensões.",
-            "O poder que você possui é incomparável e sublime.",
-            "Você se tornou uma lenda imortal, eternamente lembrado.",
-            "O universo reverencia o impacto de sua aventura.",
-            "Cada ação sua ecoa por eras e galáxias.",
-            "Você completou uma saga épica, e sua lenda viverá para sempre."
+            "Kael e Aria o convidam para uma expedição aos arredores do vilarejo.",
+            "\"Há muito a aprender fora dos limites do vilarejo. Vamos explorar juntos!\"",
+            "Você se junta a eles, e o grupo descobre um antigo templo nas proximidades.",
+            "Explorar o templo revela fragmentos de uma história antiga sobre o rei demônio.",
+            "Você se sente inspirado e preparado para enfrentar qualquer desafio."
+        ]
+    },
+    {
+        "phase": 10,
+        "points": 9,
+        "texts": [
+            "Você conhece um velho eremita chamado Thorne, que lhe dá conselhos sobre a vida e a jornada.",
+            "\"A vida é uma série de desafios e descobertas. Prepare-se para o que está por vir.\"",
+            "Thorne lhe dá um amuleto que, segundo ele, protege contra perigos desconhecidos.",
+            "Você sente uma conexão profunda com o amuleto e com as palavras de Thorne.",
+            "Você agradece e se prepara para as novas fases de sua jornada."
+        ]
+    },
+    {
+        "phase": 11,
+        "points": 10,
+        "texts": [
+            "Uma tempestade atinge o vilarejo, causando destruição e caos.",
+            "Você ajuda a reparar os danos e a confortar os habitantes.",
+            "\"Sua coragem e compaixão são notáveis. Você está realmente se tornando parte desta comunidade.\"",
+            "O vilarejo começa a ver você como um verdadeiro membro e herói.",
+            "Você reflete sobre a importância de proteger aqueles que ama."
+        ]
+    },
+    {
+        "phase": 12,
+        "points": 11,
+        "texts": [
+            "Aria lhe apresenta a um grupo de magos que treinam em segredo.",
+            "\"Nós estudamos magia antiga para nos prepararmos para ameaças futuras.\"",
+            "Você se junta ao grupo e começa a aprender sobre feitiços poderosos e defesa mágica.",
+            "A sensação de que algo sombrio está por vir aumenta sua dedicação ao treinamento.",
+            "Você se sente cada vez mais pronto para enfrentar desafios."
+        ]
+    },
+    {
+        "phase": 13,
+        "points": 9,
+        "texts": [
+            "Kael lhe conta sobre sua própria jornada e as lições que aprendeu.",
+            "\"Cada batalha me ensinou algo novo sobre mim mesmo e sobre o mundo. Aprenda com cada desafio.\"",
+            "Você aprecia as palavras de Kael e usa seu conselho para melhorar suas habilidades.",
+            "Sua amizade com Kael se torna mais forte e sua confiança cresce.",
+            "Você se prepara para futuros desafios com um novo senso de propósito."
+        ]
+    },
+    {
+        "phase": 14,
+        "points": 12,
+        "texts": [
+            "Você começa a sonhar com visões de um reino em ruínas e um rei demônio.",
+            "Os sonhos o perturbam, mas também o motivam a se preparar melhor.",
+            "Você compartilha suas preocupações com Elara, que o encoraja a continuar seu treinamento.",
+            "Ela diz: \"Os sonhos podem ser avisos. Esteja preparado para enfrentar o que está por vir.\"",
+            "Você intensifica seu treinamento e se prepara para o que pode vir."
+        ]
+    },
+    {
+        "phase": 15,
+        "points": 14,
+        "texts": [
+            "Durante uma exploração, você encontra um grupo de bandidos atacando uma caravana.",
+            "Você e seus amigos lutam contra os bandidos, protegendo os inocentes.",
+            "Após a batalha, você ajuda a reconstruir a caravana e os sobreviventes o agradecem.",
+            "\"Sua bravura fez a diferença. O vilarejo está orgulhoso de você.\"",
+            "Você se sente realizado e percebe o impacto de suas ações no mundo."
+        ]
+    },
+    {
+        "phase": 16,
+        "points": 8,
+        "texts": [
+            "Uma noite, o céu é iluminado por uma estranha aurora que parece enviar uma mensagem.",
+            "Você se encontra com Aria, que acredita que a aurora é um sinal de uma grande mudança.",
+            "\"A magia ao nosso redor está reagindo a algo grande. Devemos estar prontos.\"",
+            "Você compartilha suas próprias preocupações e se prepara para possíveis desafios.",
+            "A sensação de que algo está prestes a acontecer se intensifica."
+        ]
+    },
+    {
+        "phase": 17,
+        "points": 10,
+        "texts": [
+            "Você participa de um festival de treinamento onde os habitantes mostram suas habilidades.",
+            "\"Mostre-nos o que você aprendeu!\"",
+            "Você demonstra suas habilidades de combate e magia, impressionando a todos.",
+            "O festival é um sucesso e o vilarejo celebra sua unidade e força.",
+            "Você se sente parte de algo maior e mais importante."
+        ]
+    },
+    {
+        "phase": 18,
+        "points": 11,
+        "texts": [
+            "Você recebe uma mensagem misteriosa sobre uma ameaça crescente.",
+            "A mensagem diz: \"O tempo está se esgotando. Prepare-se para enfrentar o mal.\"",
+            "Você compartilha a mensagem com seus amigos e começa a se preparar para o que está por vir.",
+            "O medo e a determinação se misturam enquanto você se prepara para uma nova jornada.",
+            "Você sente que o perigo está mais perto do que nunca."
+        ]
+    },
+    {
+        "phase": 19,
+        "points": 12,
+        "texts": [
+            "Você encontra um antigo pergaminho em uma caverna secreta.",
+            "O pergaminho fala sobre um artefato poderoso capaz de combater o rei demônio.",
+            "Você decide procurar pelo artefato, acreditando que ele pode ser a chave para derrotar o mal.",
+            "O caminho é perigoso, mas você se sente confiante com o apoio de seus amigos.",
+            "A jornada para encontrar o artefato começa."
+        ]
+    },
+    {
+        "phase": 20,
+        "points": 15,
+        "texts": [
+            "A busca pelo artefato leva você a um antigo templo guardado por monstros.",
+            "Você e seus amigos enfrentam desafios e armadilhas para chegar ao coração do templo.",
+            "\"Nossa coragem e habilidades serão testadas. Juntos, podemos superar qualquer obstáculo.\"",
+            "Após uma intensa batalha, você encontra o artefato escondido em um altar.",
+            "O artefato brilha com uma luz intensa, e você sente uma energia poderosa emanando dele."
+        ]
+    },
+    {
+        "phase": 21,
+        "points": 14,
+        "texts": [
+            "Você retorna ao vilarejo com o artefato e o mostra a Elara e seus amigos.",
+            "\"Este artefato é uma antiga relíquia. Deve ser usado com sabedoria.\"",
+            "Elara lhe dá conselhos sobre como usar o artefato para enfrentar o rei demônio.",
+            "Você se prepara para a batalha final, sabendo que o destino do vilarejo e do reino está em suas mãos.",
+            "O momento da verdade está se aproximando."
+        ]
+    },
+    {
+        "phase": 22,
+        "points": 16,
+        "texts": [
+            "Você e seus amigos partem para enfrentar o rei demônio em seu castelo.",
+            "O caminho é perigoso, com criaturas e obstáculos a cada passo.",
+            "\"Não podemos recuar agora. O futuro do nosso mundo depende de nós.\"",
+            "Você enfrenta desafios e inimigos poderosos ao longo do caminho.",
+            "Finalmente, você chega ao castelo do rei demônio, pronto para a batalha final."
+        ]
+    },
+    {
+        "phase": 23,
+        "points": 18,
+        "texts": [
+            "A batalha final contra o rei demônio começa.",
+            "Você usa o artefato para canalizar poderosas habilidades mágicas e combater o rei demônio.",
+            "\"Este é o momento que temos aguardado. A vitória ou a derrota está em nossas mãos.\"",
+            "Após uma luta épica, você consegue derrotar o rei demônio e salvar o reino.",
+            "A paz retorna ao vilarejo e ao reino, e você é celebrado como um herói."
+        ]
+    },
+    {
+        "phase": 24,
+        "points": 12,
+        "texts": [
+            "Com a paz restaurada, você se reúne com seus amigos e agradece por todo o apoio.",
+            "\"Sem vocês, nada disso seria possível. Nossa amizade e coragem foram nossa maior força.\"",
+            "Você reflete sobre sua jornada e o crescimento que experimentou.",
+            "A vida no vilarejo retorna ao normal, mas você sempre se lembrará das aventuras que viveu.",
+            "Você continua a proteger e cuidar do vilarejo, agora como um verdadeiro herói."
+        ]
+    },
+    {
+        "phase": 25,
+        "points": 13,
+        "texts": [
+            "Um novo desafio surge quando rumores de uma nova ameaça começam a circular.",
+            "Você se prepara para enfrentar o próximo desafio, sabendo que estará pronto para qualquer coisa.",
+            "\"O futuro é incerto, mas com coragem e amizade, estamos prontos para qualquer desafio.\"",
+            "Você continua sua jornada, sabendo que novos desafios e aventuras estão por vir.",
+            "O ciclo de desafios e crescimento continua."
+        ]
+    },
+    {
+        "phase": 26,
+        "points": 10,
+        "texts": [
+            "Você é abordado por um misterioso viajante que diz saber sobre um segredo antigo.",
+            "\"Há uma verdade escondida sobre o seu passado que pode mudar tudo o que você sabe.\"",
+            "Você decide investigar a história do viajante, em busca de respostas.",
+            "O mistério do seu passado começa a se desdobrar, revelando novas pistas e desafios.",
+            "Sua jornada continua com novas perguntas e descobertas."
+        ]
+    },
+    {
+        "phase": 27,
+        "points": 11,
+        "texts": [
+            "Você encontra um antigo livro que descreve uma profecia sobre um herói.",
+            "O livro fala sobre um herói destinado a proteger o reino em tempos de crise.",
+            "\"Você pode ser a pessoa mencionada na profecia. Suas ações têm um propósito maior.\"",
+            "Você se sente inspirado e determinado a cumprir seu destino.",
+            "O livro se torna um guia para suas futuras aventuras."
+        ]
+    },
+    {
+        "phase": 28,
+        "points": 12,
+        "texts": [
+            "Você conhece um grupo de aventureiros que busca explorar uma nova região desconhecida.",
+            "Eles oferecem a você a chance de se juntar a eles em uma expedição.",
+            "\"Juntos, podemos descobrir novos segredos e enfrentar desafios inéditos.\"",
+            "Você aceita a oferta e se prepara para uma nova jornada cheia de mistérios.",
+            "A nova expedição promete trazer novas aventuras e descobertas."
+        ]
+    },
+    {
+        "phase": 29,
+        "points": 13,
+        "texts": [
+            "Durante a expedição, você encontra uma cidade perdida cheia de tesouros e perigos.",
+            "A cidade é repleta de armadilhas e enigmas que precisam ser resolvidos.",
+            "\"Cada desafio que enfrentamos aqui nos aproxima de grandes descobertas.\"",
+            "Você supera os desafios e descobre tesouros antigos e segredos esquecidos.",
+            "A cidade perdida se torna um marco importante em sua jornada."
+        ]
+    },
+    {
+        "phase": 30,
+        "points": 14,
+        "texts": [
+            "Você retorna ao vilarejo com novos conhecimentos e tesouros da expedição.",
+            "Os habitantes do vilarejo o recebem de braços abertos e celebram seu retorno.",
+            "\"Você trouxe muito mais do que tesouros. Trouxe esperança e inspiração para todos nós.\"",
+            "Você compartilha suas descobertas e conhecimentos com o vilarejo.",
+            "A sensação de realização e gratidão enche seu coração."
+        ]
+    },
+    {
+        "phase": 31,
+        "points": 15,
+        "texts": [
+            "Um velho amigo lhe envia uma mensagem pedindo ajuda com uma nova ameaça.",
+            "A mensagem diz: \"Precisamos de sua ajuda para enfrentar um novo perigo que surge em nossas terras.\"",
+            "Você se prepara para uma nova missão, sabendo que suas habilidades e experiência serão necessárias.",
+            "Você se despede do vilarejo, prometendo retornar após cumprir sua missão.",
+            "A próxima fase de sua jornada começa."
+        ]
+    },
+    {
+        "phase": 32,
+        "points": 16,
+        "texts": [
+            "Você chega à nova região e encontra seu amigo enfrentando uma ameaça iminente.",
+            "Juntos, vocês lutam contra criaturas ameaçadoras e resolvem problemas críticos.",
+            "\"Sua chegada foi o que precisávamos. Com sua ajuda, podemos superar esse desafio.\"",
+            "Você e seu amigo trabalham juntos para superar a ameaça e restaurar a paz.",
+            "A nova missão é concluída com sucesso."
+        ]
+    },
+    {
+        "phase": 33,
+        "points": 17,
+        "texts": [
+            "Você retorna ao vilarejo, mas descobre que uma nova crise está se formando.",
+            "Uma poderosa força sombria está ameaçando o equilíbrio do reino.",
+            "Você se une aos habitantes para preparar uma defesa contra a nova ameaça.",
+            "\"O desafio é grande, mas nossa determinação e coragem são maiores.\"",
+            "A batalha contra a nova força sombria começa."
+        ]
+    },
+    {
+        "phase": 34,
+        "points": 18,
+        "texts": [
+            "A batalha contra a força sombria é intensa e desafiadora.",
+            "Você usa todas as suas habilidades e recursos para proteger o vilarejo e o reino.",
+            "\"Não podemos desistir agora. A esperança e a coragem nos guiarão à vitória.\"",
+            "Após uma batalha épica, você consegue repelir a força sombria e restaurar a paz.",
+            "O vilarejo e o reino celebram sua vitória e agradecem por sua bravura."
+        ]
+    },
+    {
+        "phase": 35,
+        "points": 19,
+        "texts": [
+            "Com a crise resolvida, você se vê em um momento de reflexão e descanso.",
+            "Você avalia todas as aventuras e desafios que enfrentou ao longo da jornada.",
+            "Seus amigos e aliados o parabenizam por sua coragem e determinação.",
+            "\"Você mostrou o verdadeiro significado de heroísmo. O reino sempre será grato.\"",
+            "Você começa a planejar o futuro e a considerar novas aventuras."
+        ]
+    },
+    {
+        "phase": 36,
+        "points": 20,
+        "texts": [
+            "Um novo desafio surge com a descoberta de um antigo artefato mágico.",
+            "O artefato é capaz de alterar o curso do destino e pode ter um grande impacto no reino.",
+            "Você decide investigar e entender o verdadeiro poder do artefato.",
+            "Sua jornada para descobrir o segredo do artefato começa.",
+            "A nova fase de sua aventura está prestes a começar."
+        ]
+    },
+    {
+        "phase": 37,
+        "points": 5,
+        "texts": [
+            "Você se lembra de sua infância no vilarejo, onde cresceu em uma casa simples.",
+            "Seus pais eram trabalhadores dedicados, sempre ensinando-lhe sobre a importância do esforço e da bondade.",
+            "Os dias eram passados ajudando nas tarefas diárias e brincando com outras crianças do vilarejo.",
+            "Lembranças de risadas e aventuras inocentes enchem seu coração de saudade.",
+            "Você reflete sobre como esses momentos moldaram quem você é hoje."
+        ]
+    },
+    {
+        "phase": 38,
+        "points": 6,
+        "texts": [
+            "Você recorda a primeira vez que ouviu histórias sobre heróis e aventuras.",
+            "Seu avô costumava contar-lhe contos de bravura e magia ao redor da lareira.",
+            "\"Os heróis são aqueles que enfrentam o desconhecido com coragem e esperança.\"",
+            "Essas histórias acenderam uma chama de curiosidade e desejo em seu coração.",
+            "Você se pergunta se algum dia poderá viver uma aventura tão grandiosa quanto aquelas."
+        ]
+    },
+    {
+        "phase": 39,
+        "points": 7,
+        "texts": [
+            "Na escola do vilarejo, você se destacava em história e geografia.",
+            "Seu professor, o Sr. Alden, sempre o encorajava a buscar conhecimento e explorar o mundo.",
+            "\"O conhecimento é a chave para enfrentar qualquer desafio.\"",
+            "Você passava horas estudando mapas e lendas, sonhando com as terras além do horizonte.",
+            "Essas aulas plantaram a semente de sua futura jornada."
+        ]
+    },
+    {
+        "phase": 40,
+        "points": 8,
+        "texts": [
+            "Você recorda os primeiros amigos que fez na infância e as aventuras que viviam juntos.",
+            "Vocês exploravam os bosques e campos ao redor do vilarejo, inventando histórias e jogos.",
+            "\"Esses momentos de diversão e camaradagem foram os melhores da minha infância.\"",
+            "O vínculo que formaram se tornou uma base sólida para sua vida futura.",
+            "Esses amigos continuam a ser uma fonte de apoio e inspiração."
+        ]
+    },
+    {
+        "phase": 41,
+        "points": 9,
+        "texts": [
+            "Você lembra-se de um evento especial, como o Festival da Primavera, em que participou com entusiasmo.",
+            "O festival era uma celebração cheia de música, dança e comidas deliciosas.",
+            "\"Essas celebrações nos uniam e nos lembravam da importância da comunidade.\"",
+            "Você sente saudade desses momentos de alegria e união.",
+            "A experiência ajudou a fortalecer seu amor pelo vilarejo e suas tradições."
+        ]
+    },
+    {
+        "phase": 42,
+        "points": 10,
+        "texts": [
+            "Você tem memórias do seu primeiro contato com a natureza e os animais ao redor do vilarejo.",
+            "Seu pai lhe ensinou a cuidar dos animais e a entender o equilíbrio da natureza.",
+            "\"O respeito pela natureza é essencial para a nossa sobrevivência e bem-estar.\"",
+            "Essas lições ajudaram a moldar seu caráter e respeito pelo mundo ao seu redor.",
+            "Você sente uma profunda conexão com a terra e os seres que nela habitam."
+        ]
+    },
+    {
+        "phase": 43,
+        "points": 11,
+        "texts": [
+            "Você recorda o dia em que recebeu seu primeiro presente especial, um livro de contos.",
+            "O livro estava repleto de histórias mágicas e aventuras épicas que o fascinavam.",
+            "\"Essas histórias alimentaram minha imaginação e me prepararam para sonhar grande.\"",
+            "O livro se tornou um tesouro que você revisitou muitas vezes.",
+            "Esses contos ajudaram a moldar seus sonhos e ambições."
+        ]
+    },
+    {
+        "phase": 44,
+        "points": 12,
+        "texts": [
+            "Você lembra-se das lições de vida que aprendeu com sua mãe, que sempre o incentivou a ser gentil e generoso.",
+            "Ela dizia: \"A verdadeira força está na bondade e no coração aberto.\"",
+            "Esses ensinamentos o ajudaram a desenvolver empatia e compaixão para com os outros.",
+            "Você carrega essas lições com você, guiando suas ações e decisões.",
+            "A influência de sua mãe continua a ser uma fonte de inspiração."
+        ]
+    },
+    {
+        "phase": 45,
+        "points": 13,
+        "texts": [
+            "Você recorda a primeira vez que se sentiu responsável por algo, como ajudar na colheita com sua família.",
+            "O trabalho árduo e o esforço contribuíram para o bem-estar de todos no vilarejo.",
+            "\"Cada pequena contribuição faz uma grande diferença.\"",
+            "Você aprendeu o valor do trabalho em equipe e da responsabilidade.",
+            "Essas experiências ajudaram a prepará-lo para desafios futuros."
+        ]
+    },
+    {
+        "phase": 46,
+        "points": 14,
+        "texts": [
+            "Você se lembra do momento em que decidiu seguir seu próprio caminho e explorar além do vilarejo.",
+            "A curiosidade e o desejo de descobrir novas coisas sempre estiveram presentes em você.",
+            "\"O mundo é vasto e cheio de possibilidades. Eu quero ver tudo o que ele tem a oferecer.\"",
+            "Essa decisão marcou o início de uma nova fase em sua vida.",
+            "Você começa a se preparar para a jornada que está por vir."
+        ]
+    },
+    {
+        "phase": 47,
+        "points": 15,
+        "texts": [
+            "Você recorda as despedidas emocionantes quando partiu para suas primeiras aventuras.",
+            "Seus amigos e familiares lhe deram palavras de encorajamento e apoio.",
+            "\"Vá e faça o melhor que puder. Nós acreditamos em você.\"",
+            "Essas palavras o acompanharam em cada passo de sua jornada.",
+            "A saudade e o apoio de seus entes queridos foram fundamentais para sua coragem."
+        ]
+    },
+    {
+        "phase": 48,
+        "points": 10,
+        "texts": [
+            "Você pensa sobre os desafios que enfrentou quando começou a explorar o mundo.",
+            "Cada obstáculo e dificuldade foram oportunidades para aprender e crescer.",
+            "\"Cada desafio me fez mais forte e mais preparado para o que viria.\"",
+            "Você reflete sobre as lições que aprendeu e como elas moldaram seu caráter.",
+            "Essas experiências ajudaram a formar o herói que você se tornou."
+        ]
+    },
+    {
+        "phase": 49,
+        "points": 12,
+        "texts": [
+            "Você lembra-se dos momentos em que encontrou novos amigos e aliados durante suas viagens.",
+            "Cada nova amizade trouxe uma nova perspectiva e apoio para sua jornada.",
+            "\"As amizades são uma fonte de força e inspiração. Sou grato por cada uma delas.\"",
+            "Você valoriza as conexões que fez e o impacto positivo que tiveram em sua vida.",
+            "Esses amigos são parte fundamental da sua história."
+        ]
+    },
+    {
+        "phase": 50,
+        "points": 13,
+        "texts": [
+            "Você reflete sobre a jornada até agora e como a infância moldou suas escolhas e valores.",
+            "As memórias de sua vida anterior são um lembrete constante do que é importante para você.",
+            "\"A infância me deu as fundações que preciso para enfrentar o futuro.\"",
+            "Você se sente preparado para os desafios que ainda estão por vir.",
+            "Sua jornada continua com a força e a sabedoria adquiridas ao longo do caminho."
         ]
     }
 ]
