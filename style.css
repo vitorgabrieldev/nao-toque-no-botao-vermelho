@@ -37,6 +37,9 @@ body, html {
     text-align: left;
     overflow-y: scroll;
     border: 2px solid #1b1a1a;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 
 .texts-container::-webkit-scrollbar {
@@ -57,13 +60,20 @@ body, html {
     font-size: 16px;
     margin: 0;
     text-align: left;
-    letter-spacing: 2px;
     line-height: 28px;
-    font-weight: 500;
+    font-weight: 400;
     color: #373636;
     font-family: 'Roboto';
     user-select: none;
+    padding: 10px;
+    background-color: rgba(31, 28, 28, 0.048);
+    border-radius: 4px;
 }
+
+.contaienr-btn .titulo:last-child {
+    background-color: rgba(31, 28, 28, 0.178);
+}
+
 
 .btn-class-name {
     --primary: 255, 90, 120;
@@ -137,6 +147,12 @@ body, html {
     text-align: right;
     color: #e5e5e5;
     user-select: none;
+}
+
+.caption-jogo {
+    text-align: right;
+    max-width: 250px;
+    line-height: 18px;
 }
 
 .blur-init {

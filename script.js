@@ -1,94 +1,48 @@
 
-/* -------------------------------------------------------
-|
-| Definição de rankings
-|
-| -------------------------------------------------------*/
-const ranks = [
-    { rank: "Novato", pointsRequired: 0 },
-    { rank: "Aspirante", pointsRequired: 180 },
-    { rank: "Desbravador", pointsRequired: 360 },
-    { rank: "Explorador", pointsRequired: 420 },
-    { rank: "Aventureiro", pointsRequired: 670 },
-    { rank: "Vanguardista", pointsRequired: 760 },
-    { rank: "Gladiador", pointsRequired: 910 },
-    { rank: "Mestre das Armas", pointsRequired: 1000 },
-    { rank: "Sábio", pointsRequired: 1300 },
-    { rank: "Senhor das Sombras", pointsRequired: 1600 },
-    { rank: "Guardião", pointsRequired: 2000 },
-    { rank: "Lenda Viva", pointsRequired: 2500 },
-    { rank: "Herói", pointsRequired: 3000 },
-    { rank: "Soberano", pointsRequired: 3500 },
-    { rank: "Arcanista", pointsRequired: 4000 },
-    { rank: "Venerável", pointsRequired: 5000 },
-    { rank: "Fabuloso", pointsRequired: 6000 },
-    { rank: "Celestial", pointsRequired: 7500 },
-    { rank: "Divino", pointsRequired: 9000 },
-    { rank: "Supremo", pointsRequired: 11000 },
-    { rank: "Eterno", pointsRequired: 13000 },
-    { rank: "Incompreensível", pointsRequired: 15000 },
-    { rank: "Transcendental", pointsRequired: 18000 },
-    { rank: "Mítico", pointsRequired: 21000 },
-    { rank: "Épico", pointsRequired: 25000 },
-    { rank: "Lendário", pointsRequired: 30000 },
-    { rank: "Inigualável", pointsRequired: 35000 },
-    { rank: "Imperador", pointsRequired: 40000 },
-    { rank: "Eminente", pointsRequired: 45000 },
-    { rank: "Excepcional", pointsRequired: 50000 },
-    { rank: "Soberano Supremo", pointsRequired: 60000 },
-    { rank: "Arquiteto das Estrelas", pointsRequired: 70000 },
-    { rank: "Lendário Supremo", pointsRequired: 80000 },
-    { rank: "Celestial Supremo", pointsRequired: 90000 },
-    { rank: "Incrível", pointsRequired: 100000 },
-    { rank: "Transcendente", pointsRequired: 120000 },
-    { rank: "Criador de Mundos", pointsRequired: 140000 },
-    { rank: "Guardião do Cosmo", pointsRequired: 160000 },
-    { rank: "Supremo Eterno", pointsRequired: 180000 },
-    { rank: "Deus Antigo", pointsRequired: 200000 }
-];
 
+let messages = [];
+let ranks = [];
+let captions = [];
 
-// ------------------ Váriaveis globais ------------------
-var currentPhase = 0;
-var currentMessageIndex = 0;
-let totalPoints = 0;
-let currentRank = ranks[0].rank;
-let completedMissions = 0;
-let pendingMissions = 0;
-
-const init = () => {
-    // Inicia o Game
-    loadMessagesAction();
+const init = async () => {
+    await loadGameData(); // Carrega todos os dados do jogo
     timerBoardAction();
     ClickButtonAction();
     backgroundGuideAction();
 };
 
-/* -------------------------------------------------------
-|
-| Sistema de carregar as mensagens
-|
-| -------------------------------------------------------*/
-const loadMessagesAction =  async() => {
+const loadGameData = async () => {
     try {
-        const response = await fetch('messages.json');
-        if (!response.ok) {
-            throw new Error('Erro ao carregar o arquivo JSON.');
-        }
-        messages = await response.json();
+        const messagesResponse = await fetch('json/history.json');
+        if (!messagesResponse.ok) throw new Error('Erro ao carregar o arquivo de mensagens.');
+        messages = await messagesResponse.json();
+
+        const ranksResponse = await fetch('json/rankings.json');
+        if (!ranksResponse.ok) throw new Error('Erro ao carregar o arquivo de rankings.');
+        ranks = await ranksResponse.json();
+
+        const captionsResponse = await fetch('json/captions.json');
+        if (!captionsResponse.ok) throw new Error('Erro ao carregar o arquivo de capítulos.');
+        captions = await captionsResponse.json();
 
         // Conta a quantidade de missões
         messages.forEach(element => {
-            pendingMissions = pendingMissions + element.texts.length;
+            pendingMissions += element.texts.length;
         });
 
         updateMissionsAction(); // Atualiza o sistema de missões
 
-
     } catch (error) {
         console.error(error);
     }
-}
+};
+
+// ------------------ Váriaveis globais ------------------
+var currentPhase = 0;
+var currentMessageIndex = 0;
+let totalPoints = 0;
+let completedMissions = 0;
+let pendingMissions = 0;
 
 /* -------------------------------------------------------
 |
@@ -120,6 +74,7 @@ const ClickButtonAction = () => {
         updatePointsAction(messages[currentMessageIndex].points); // Sistema de aumento de pontos
         updateRankAction(); // Sistema de classificação de ranking
         updateMissionsAction(); // Atualiza o sistema de missões
+        updateCaptionAction(messages[currentMessageIndex - 1].capitulo); // Atualiza o sistema de capítulos
 
         if (currentMessageIndex >= currentPhaseMessages.length) {
             currentMessageIndex = 0;
@@ -131,6 +86,15 @@ const ClickButtonAction = () => {
     });
 };
 
+
+/* -------------------------------------------------------
+|
+| Sistema de troca de capítulo
+|
+// | -------------------------------------------------------*/
+const updateCaptionAction = (caption) => {
+    $(".caption-jogo").html(`${captions[caption - 1]}`);
+};
 
 /* -------------------------------------------------------
 |
