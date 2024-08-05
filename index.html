@@ -3,48 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Não clique no botão vermelho | Vitorgabrieldev</title>
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>A JORNADA DO HERÓI | Vitorgabrieldev</title>
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
+    
+    <div id="play" class="blur-init">
+        <p>Toque para começar</p>
+    </div>
+
     <section class="contaienr-btn">
-        <p class="titulo"></p>
+        <p class="titulo">Olá, seja bem vindo ao jogo!</p>
         <button id="soundClick" class="btn-class-name">
             <span class="back"></span>
             <span class="front"></span>
         </button>
     </section>
+
+    <section class="board-level">
+        <p class="item level-jogo">Level : 1</p>
+        <p class="item rank-jogo">Rank: Novato</p>
+        <p class="item pontos-jogo">Pontos: 0</p>
+        <p class="item missao-completa">Missões Completas: 0</p>
+        <p class="item missao-pendente">Missões Pendentes: 0</p>
+        <p class="item time-jogo">Tempo de jogo : 0s</p>
+    </section>
     
     <audio id="hoverSound" src="SoundClick.mp3"></audio>
-
-    <script>
-
-        var messages = [
-            'Para com isso!',
-            'Já falei para parar',
-            'Não vai parar não?',
-            'Vou entender isso como um não',
-            'Quem você pensa que é?',
-            'Paraaaaaaaaaaaaaaaa',
-            '...'
-        ];
-
-        var i = 0;
-
-        document.getElementById('soundClick').addEventListener('click', function() {
-            document.getElementById('hoverSound').play();
-
-            document.querySelector(".titulo").innerHTML = messages[i];
-
-            i++;
-
-            if (i >= messages.length) {
-                i = 0;
-            }
-
-        });
-    </script>
-</body>
 </html>
